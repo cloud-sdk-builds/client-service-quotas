@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-service-quotas`](https://www.npmjs.com/package/@aws-sdk/client-service-quotas/v/3.810.0).
+[`@aws-sdk/client-service-quotas`](https://www.npmjs.com/package/@aws-sdk/client-service-quotas/v/3.812.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-quotas@3.810.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-quotas@3.812.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-coZP26Pa7SCDYoc7YHXVl2gjGJuwA15WXhXuacsz9+5mcQlT+CWEGDLJ55nAr/ot
+sha384-AoZa/CMy3/ecQD9E//Q+lozvAlWFnF6CiI6T2hImnq1/AuLpCtpgXoeVhBIcqtZn
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-service-quotas": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-quotas@3.810.0/index.min.mjs"
+            "@aws-sdk/client-service-quotas": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-quotas@3.812.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-quotas@3.810.0/index.min.mjs": "sha384-coZP26Pa7SCDYoc7YHXVl2gjGJuwA15WXhXuacsz9+5mcQlT+CWEGDLJ55nAr/ot"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-quotas@3.812.0/index.min.mjs": "sha384-AoZa/CMy3/ecQD9E//Q+lozvAlWFnF6CiI6T2hImnq1/AuLpCtpgXoeVhBIcqtZn"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-service-quotas": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-quotas@3.810.0/index.min.mjs"
+                        "@aws-sdk/client-service-quotas": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-quotas@3.812.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-quotas@3.810.0/index.min.mjs": "sha384-coZP26Pa7SCDYoc7YHXVl2gjGJuwA15WXhXuacsz9+5mcQlT+CWEGDLJ55nAr/ot"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-quotas@3.812.0/index.min.mjs": "sha384-AoZa/CMy3/ecQD9E//Q+lozvAlWFnF6CiI6T2hImnq1/AuLpCtpgXoeVhBIcqtZn"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.810.0`)
+* Always pin to a specific version (`@3.812.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-service-quotas/blob/refs/tags/3.810.0/LICENSE
+https://github.com/cloud-sdk-builds/client-service-quotas/blob/refs/tags/3.812.0/LICENSE
 ```
 
 ---
